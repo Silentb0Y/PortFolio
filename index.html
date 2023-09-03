@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">INDIA</a>
+      <nav>
+        <a href="#home" style="--clr: #ff4d4d" class="active">Home</a>
+        <a href="#About" style="--clr: #fd79a8">About</a>
+        <a href="#Project" style="--clr: #17c0eb">Project's</a>
+        <a href="#Contact" style="--clr: #ffeaa7">Contact</a>
+      </nav>
+    </header>
+    <section id="home" style="--clr: #ff4d4d">
+      <div>
+        <small>Hello I'm</small>
+        <h1>WEB DESIGNER</h1>
+        <h6 style="font-family: monospace">Abhijeet Dhekane</h6>
+
+        <a href="CV.pdf" target="_blank">
+          <button id="cv" class="button-29">Download CV</button>
+        </a>
+      </div>
+      <img src="./img/abhijeet.jpeg" class="img1" />
+    </section>
+    <section id="About" style="--clr: #fd79a8">
+      <img src="./img/abhijeet.jpeg" class="img3" alt="" />
+
+      <div class="details">
+        <h1>About <span>Me</span></h1>
+
+        <h4>Hello , i'm Abhijeet Dhekane</h4>
+        <br />
+        <p>
+          I'M Passionate Software Engineering student with a love for innovation
+          and problem-solving. From a Young age, i've been fascinated with
+          technology and its potential to transform lives. I Enjoy Pushing the
+          boundaries of what's possible and finding creative soluction to
+          complex challenges. My Expertise lies in developing robust and
+          scalable software application.with a focus on user-centered design and
+          seamless user experiences.<br />
+          i am excited about the endless possibilities in the world of software
+          Engineering and looking forward to contributing my skills and
+          knowledges to make a positive impact
+        </p>
+
+        <div class="skill">
+          <h2>My Skills</h2>
+          <div>
+            <h3>HTML5 & CSS3</h3>
+            <h3>JavaScript</h3>
+            <h3>BootStrap & TailWind</h3>
+            <h3>React.Js</h3>
+            <h3>Canvas</h3>
+            <h3>DevOps</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Project" style="--clr: #17c0eb">
+      <h1>Project</h1>
+      <div class="grid">
+        <div class="grid2 gd">
+          <img src="./img/codeforprogess.bmp" alt="" />
+          <div>
+            <h3>CodeForProgress</h3>
+            <a href="https://silentb0y.github.io/Miniproject/" target="_blank">
+              <button class="btn">Live</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="grid1 gd">
+          <img src="./img/gamingZone.bmp" alt="" />
+          <div>
+            <h3>GamingZone</h3>
+            <a href="https://silentb0y.github.io/GameingZone/" target="_blank">
+              <button class="btn">Live</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="grid3 gd">
+          <img src="./img/todo.bmp" alt="" />
+          <div>
+            <h3>TODOLIst</h3>
+            <a href="https://silentb0y.github.io/TodoApp/" target="_blank">
+              <button class="btn">Live</button>
+            </a>
+          </div>
+        </div>
+        <div class="grid3 gd">
+          <img src="./img/weather.jpeg" alt="" />
+          <div>
+            <h3>WeatherApp</h3>
+            <a href="https://silentb0y.github.io/WeatherApp/" target="_blank">
+              <button class="btn">Live</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Contact" style="--clr: #ffeaa7">
+      <div class="container">
+        <h1>Contact Me</h1>
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
+
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+
+          <label for="lname">Email Address</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your Email Address.."
+          />
+
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height: 200px"
+          ></textarea>
+
+          <input type="submit" class="submit" value="Submit" />
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
