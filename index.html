@@ -142,9 +142,15 @@
             style="height: 200px"
           ></textarea>
 
-          <input type="submit" class="submit" value="Submit" />
+          <input type="submit" id='btnd' class="submit" value="Submit" />
         </form>
       </div>
     </section>
+    <script>
+      var btn = document.getElementById('btnd');
+      btn.addEventListner('click',function(){
+      alert("You Message is Successfully recieved by Abhijeet")
+      })
+    </script>
   </body>
 </html>
